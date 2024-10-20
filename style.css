@@ -1,0 +1,41 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-coulor: #11100c;
+        --text-coulor: #ffffff;
+
+
+    }
+
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-coulor: #e7ddb2;
+        --text-coulor: #000000;
+    }
+
+}
+
+
+html {
+    background-color: var(--background-coulor);
+    color: var(--text-coulor);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    margin: 5vh;
+    font-size: 3vh;
+
+    text-align: left;
+}
+
+.hero img {
+    border-radius: 5vh;
+}
