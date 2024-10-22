@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-coulor: #11100c;
-        --text-coulor: #ffffff;
+        --background-coulor: #140021;
+        --text-color: #ffffff;
 
 
     }
@@ -11,7 +11,7 @@
 @media (prefers-color-scheme: light) {
     :root {
         --background-coulor: #e7ddb2;
-        --text-coulor: #000000;
+        --text-color: #000000;
     }
 
 }
@@ -19,23 +19,31 @@
 
 html {
     background-color: var(--background-coulor);
-    color: var(--text-coulor);
+    color: var(--text-color);
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Rubik, Geneva, Tahoma, sans-serif;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
+    margin: 2vh;
+    padding: 1vh;
+    background-color: aqua;
+    border-radius: 3vh;
 }
 
 .hero {
-    margin: 5vh;
-    font-size: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 100vh;
 
-    text-align: left;
+    font-size: 3vh;
+    text-align: center;
 }
 
 .hero img {
-    border-radius: 5vh;
+    margin-top: 1vh;
+
+    width: 40vh;
 }
