@@ -34,16 +34,28 @@ nav {
     border-radius: 3vh;
 }
 
+a {
+    color: black;
+}
+
 .hero {
     margin-top: 1vh;
     margin-bottom: 100vh;
 
     font-size: 3vh;
     text-align: center;
+    border-radius: 2vh;
 }
 
 .hero img {
     margin-top: 1vh;
 
     width: 40vh;
+}
+
+.btn {
+    background-color: white;
+
+    padding: 2vh;
+    border-radius: 3ch;
 }
